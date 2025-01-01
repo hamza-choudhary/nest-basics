@@ -1,0 +1,14 @@
+### fetch all songs
+GET http://localhost:8080/songs
+
+### fetch song by id
+GET http://localhost:8080/songs/1
+
+### create a new song
+POST http://localhost:8080/songs
+
+### update a song
+PUT http://localhost:8080/songs/1
+
+### delete a song
+DELETE http://localhost:8080/songs/1
