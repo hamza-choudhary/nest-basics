@@ -6,6 +6,15 @@ GET http://localhost:8080/songs/1
 
 ### create a new song
 POST http://localhost:8080/songs
+Content-Type: application/json
+
+{
+    "title": "Rolling",
+    "artists": ["Adele"],
+    "album": "Album 1",
+    "releaseDate": "2021-01-01",
+    "duration": "03:45"
+}
 
 ### update a song
 PUT http://localhost:8080/songs/1
